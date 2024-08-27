@@ -1,0 +1,29 @@
+{
+  "name": "cursor-editor-theme",
+  "scripts": {
+    "test": ""
+  },
+  "displayName": "Cursor Editor Theme",
+  "description": "This color theme is from Cursor AI Code Editor.",
+  "publisher": "shiso",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Editor Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cursor Editor Theme-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
